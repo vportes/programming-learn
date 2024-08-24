@@ -1,0 +1,102 @@
+:root {
+    --top-bar-height: 60px;
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f4f7f6;
+    --text-color: #333;
+    --input-border-color: #ccc;
+    --button-hover-color: #2980b9;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--top-bar-height);
+}
+
+.auth-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.auth-box h1 {
+    font-size: 36px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.auth-box .form-group {
+    margin-bottom: 15px;
+}
+
+.auth-box label {
+    display: block;
+    font-size: 14px;
+    color: var(--text-color);
+    margin-bottom: 5px;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--input-border-color);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.auth-box button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-box button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.auth-box p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.auth-box .error-message {
+    color: red;
+}
+
+.auth-box .success-message {
+    color: green;
+}
+
+.auth-box .redirect-text {
+    margin-top: 15px;
+}
+
+.auth-box .redirect-text button {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.auth-box .redirect-text button:hover {
+    color: var(--button-hover-color);
+}

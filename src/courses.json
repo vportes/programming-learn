@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Introdução ao JavaScript",
+    "description": "Aprenda os fundamentos do JavaScript, a linguagem de programação mais popular para desenvolvimento web.",
+    "image": "/img/course.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "React Avançado",
+    "description": "Aprofunde-se em hooks do React, contextos e padrões avançados para construir interfaces dinâmicas.",
+    "image": "/img/course.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Python para Ciência de Dados",
+    "description": "Domine o Python e suas poderosas bibliotecas como NumPy, Pandas e Matplotlib para ciência de dados.",
+    "image": "/img/course.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Fundamentos de CSS",
+    "description": "Aprenda a estilizar páginas web com CSS, incluindo layouts, animações e design responsivo.",
+    "image": "/img/course.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Introdução ao Node.js",
+    "description": "Descubra como construir aplicações backend com Node.js, o ambiente de execução JavaScript no servidor.",
+    "image": "/img/course.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Design de Interfaces",
+    "description": "Explore os princípios do design de interfaces e crie experiências de usuário atraentes e intuitivas.",
+    "image": "/img/course.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Desenvolvimento de Aplicações Web",
+    "description": "Aprenda a construir aplicações web completas utilizando HTML, CSS e JavaScript.",
+    "image": "/img/course.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Banco de Dados SQL",
+    "description": "Domine a criação e gerenciamento de bancos de dados relacionais usando SQL.",
+    "image": "/img/course.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Programação Funcional com JavaScript",
+    "description": "Entenda os conceitos de programação funcional e como aplicá-los em JavaScript.",
+    "image": "/img/course.jpeg"
+  }
+]
